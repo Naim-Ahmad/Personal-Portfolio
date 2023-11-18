@@ -1,0 +1,195 @@
+/*
+https://i.ibb.co/6R0RBSL/mokkahoney-min.png
+https://i.ibb.co/qgwwxkH/profile-pic.png
+https://i.ibb.co/CPcSdZV/profile-pic-opt.png
+https://i.ibb.co/MDrQvbD/raffle-Draw.png
+https://i.ibb.co/BTfV8KB/responsive-1.png
+https://i.ibb.co/JQ2d6Mz/responsive-1-min.png
+https://i.ibb.co/0MZMy64/Reviw-Bg-min.jpg
+
+https://i.ibb.co/3zC2BGt/w3project-min.png
+
+https://i.ibb.co/CWhGz8y/web-design-min.png
+https://i.ibb.co/8Dt98FV/web-icon-min.png
+*/
+
+[
+  {
+    "name": "Naim Ahmad",
+    "banner": "https://i.ibb.co/rpbbsTw/naim-using-pc-min.jpg",
+    "logo": "https://i.ibb.co/pfpBSgZ/Naim-Ahmad-logo-dark.png",
+    "profile_photo": "https://i.ibb.co/XC3KPFK/naim-profile-min.jpg",
+    "skills": [
+      {
+        "id": 1,
+        "technology": "HTML",
+        "color": "#f16529",
+        "successNum": "80",
+        "icon": "html"
+      },
+      {
+        "id": 2,
+        "technology": "CSS",
+        "color": "#337dc6",
+        "successNum": "80",
+        "icon": "css"
+      },
+      {
+        "id": 3,
+        "technology": "JavaScript",
+        "color": "#F0DB4F",
+        "successNum": "70",
+        "icon": "javaScript"
+      },
+      {
+        "id": 4,
+        "technology": "Bootstrap",
+        "color": "#8F7CF0",
+        "successNum": "90",
+        "icon": "bootstrap"
+      },
+      {
+        "id": 5,
+        "technology": "React",
+        "color": "#5FDEF3",
+        "successNum": "80",
+        "icon": "react"
+      },
+      {
+        "id": 6,
+        "technology": "Node.js",
+        "color": "#4BA86F",
+        "successNum": "70",
+        "icon": "nodejs"
+      },
+      {
+        "id": 7,
+        "technology": "express.js",
+        "color": "#7E7E7E",
+        "successNum": "80",
+        "icon": "express"
+      },
+      {
+        "id": 8,
+        "technology": "Git",
+        "color": "#E94C41",
+        "successNum": "80",
+        "icon": "git"
+      }
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "category": "webDesign",
+        "img_url": "edufordImg",
+        "alt_text": "eduford project image",
+        "title": "Eduford University",
+        "description": "Eduford University is one of the world's leading academic and research institutions, offering a unique educational experience that prepares the next generation of global citizens to lead and make a difference in the world.",
+        "code_link": "https://my-eduford.netlify.app/",
+        "live_link": ""
+      },
+      {
+        "id": 2,
+        "category": "webDesign",
+        "img_url": "w3projectImg",
+        "alt_text": "w3 schools project",
+        "title": "W3 Schools",
+        "description": "This project created using HTML, CSS, And JavaScript. And created for practicing purpose.",
+        "code_link": "https://w3-project.netlify.app/",
+        "live_link": ""
+      },
+      {
+        "id": 3,
+        "category": "webDesign",
+        "img_url": "mokkahoneyImg",
+        "alt_text": "Mokka Honey Project Image",
+        "title": "Mokka Honey",
+        "description": "Mokka honey is an online shopping of Bangladesh. There you find some product of healthy food.",
+        "code_link": "https://mokkahoneyandfood.com/",
+        "live_link": ""
+      },
+      {
+        "id": 4,
+        "category": "webApp",
+        "img_url": "https://i.ibb.co/ZM0tSvY/colorpicker-min.png",
+        "alt_text": "Color Picker Project Image",
+        "title": "Color Picker",
+        "description": "It uses web designers and others people for combining colors. And This is created with Vanilla JavaScript. You Can See This Project.",
+        "code_link": "https://color-picker-22.netlify.app/",
+        "live_link": ""
+      },
+      {
+        "id": 5,
+        "category": "webApp",
+        "img_url": "https://i.ibb.co/B4xKG66/weather-app-min.png",
+        "alt_text": "Weather Application Project Image",
+        "title": "Weather App",
+        "description": "This is a weather app. when you search by your city name. you can see weather of the city. you can this project",
+        "code_link": "",
+        "live_link": ""
+      },
+      {
+        "id": 6,
+        "category": "webApp",
+        "img_url": "clockImg",
+        "alt_text": "Analog Clock project Image",
+        "title": "Analog Watch",
+        "description": "After learning JavaScript I made this watch. And It's Totally Designed using HTML-CSS. you can this project",
+        "code_link": "https://my-analog.netlify.app/",
+        "live_link": ""
+      }
+    ],
+    "services": [
+      {
+        "title": "Web Design",
+        "description": " Creating visually appealing and user-friendly designs for websites and web applications. This involves creating layouts, selecting color schemes, typography, and designing graphical elements."
+      },
+      {
+        "title": "HTML/CSS Development",
+        "description": "Writing clean and semantic HTML and CSS code to implement the design. This includes ensuring responsiveness for various screen sizes and devices."
+      },
+      {
+        "title": "JavaScript Development",
+        "description": "Implementing interactivity and dynamic features using JavaScript. This can include form validation, animations, and more."
+      },
+      {
+        "title": "Framework Expert",
+        "description": "Proficiency in frontend frameworks such as React, Angular, or Vue.js, which enable the development of complex, single-page applications (SPAs) and dynamic interfaces."
+      },
+      {
+        "title": "Responsive Web Development",
+        "description": "Proficiency in frontend frameworks such as React, Angular, or Vue.js, which enable the development of complex, single-page applications (SPAs) and dynamic interfaces."
+      },
+      {
+        "title": "Performance Optimization",
+        "description": "Improving website performance through techniques like code minification, lazy loading, and optimizing images and other assets."
+      },
+      {
+        "title": "Code Review",
+        "description": "Participating in or conducting code reviews to maintain code quality and catch issues early in the development process."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Tamim (Python Developer)",
+        "comment": "Naim, I saw your work and I really impressed. hold it and go ahead. I think you will be a good web Developer in a few days.",
+        "photoURL": "https://i.ibb.co/smy0WKM/tamim-pic-min.jpg"
+      },
+      {
+        "name": "",
+        "comment": "",
+        "photoURL": ""
+      },
+      {
+        "name": "",
+        "comment": "",
+        "photoURL": ""
+      }
+    ],
+    "contacts": {
+      "address": "Jessore, Khulna, Bangladesh",
+      "email": "naimahmad201103@gmail.com",
+      "phone": "+880 1625 366 735"
+    }
+  }
+]
