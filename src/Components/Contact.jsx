@@ -1,4 +1,5 @@
 import emailjs from "@emailjs/browser";
+import { Button } from "@material-tailwind/react";
 import React, { useRef } from "react";
 import Swal from "sweetalert2";
 
@@ -132,9 +133,9 @@ export default function Contact() {
                     required
                   ></textarea>
                 </div>
-                <button type="submit" className="btn btn-dark px-4">
+                <Button type="submit" className="">
                   Send Messages
-                </button>
+                </Button>
               </form>
             </div>
           </div>

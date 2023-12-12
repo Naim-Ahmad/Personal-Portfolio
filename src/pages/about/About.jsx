@@ -1,5 +1,6 @@
+import { Button } from "@material-tailwind/react";
 import React from "react";
-import NaimAhmadImage from "../Assets/naim-profile-min.jpg";
+import NaimAhmadImage from "../../Assets/naim-profile-min.jpg";
 
 export default function About() {
   return (
@@ -36,8 +37,9 @@ export default function About() {
               Freelancer.com. thanks for seeing my profile!!!
             </p>
             <div className="text-center text-sm-start">
-              <a href="https://drive.google.com/file/d/182GSKdky8-Ba7fHNHS44QPPr3OBKxKeL/view?usp=sharing">Download Resume</a>
-
+              <a href="https://drive.google.com/file/d/182GSKdky8-Ba7fHNHS44QPPr3OBKxKeL/view" target="__blank">
+                <Button>Download Resume</Button>
+              </a>
             </div>
           </div>
         </div>
@@ -45,3 +47,4 @@ export default function About() {
     </section>
   );
 }
+
