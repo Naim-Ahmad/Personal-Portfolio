@@ -1,7 +1,7 @@
 import axi from 'axios'
 
 export const axios = axi.create({
-    baseURL: 'http://localhost:5000'
+    baseURL: import.meta.env.VITE_AXIOS_BASE_URL
 })
 export default function useAxios() {
 
