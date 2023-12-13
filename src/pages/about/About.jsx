@@ -1,6 +1,7 @@
 import { Button } from "@material-tailwind/react";
 import React from "react";
-import NaimAhmadImage from "../../Assets/naim-profile-min.jpg";
+import { SiGmail } from "react-icons/si";
+import NaimAhmadImage from "../../Assets/naim_using_pc-min.jpg";
 
 export default function About() {
   return (
@@ -13,8 +14,25 @@ export default function About() {
                 src={NaimAhmadImage}
                 alt="developer's image"
                 className="rounded img-fluid profile-pic"
-                style={{ maxWidth: "307px" }}
+
               />
+              <div className="flex justify-center gap-4 mt-8">
+                <a href="naimahmad201103@gmail.com" target="_blank">
+                  <SiGmail className="text-red-400" size={40} />
+                </a>
+                <a href="https://web.facebook.com/naim.ahmad.noyon" target="_blank">
+                  <i className="fa-brands fa-facebook fa-2x text-[#166AFC]"></i>
+                </a>
+                <a href="https://github.com/Naim-Ahmad" target="_blank">
+                  <i className="fa-brands fa-github fa-2x"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/naim-ahmad-7ab567256/"
+                  target="_blank"
+                >
+                  <i className="fa-brands fa-linkedin text-blue-500 fa-2x"></i>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -31,10 +49,8 @@ export default function About() {
               I’ve completed my master’s degree at Hathazari Arabic University.
               My background is Arabic but, I’m passionate about web development,
               and currently, I’m working on it. In the future, I want to work in
-              web development. I’m good at HTML, CSS, JavaScript, Bootstrap,
-              React Js, and Next Js. And I worked on many projects you see in my
-              works section. Now I’m working as a frontend developer at
-              Freelancer.com. thanks for seeing my profile!!!
+              web development. I’m expert at HTML, CSS, JavaScript, Rect, Tailwind CSS, DaisyUI , Bootstrap, Express js, MongoDB. And I worked on many projects you see in my
+              works section. thanks for seeing my profile!!!
             </p>
             <div className="text-center text-sm-start">
               <a href="https://drive.google.com/file/d/182GSKdky8-Ba7fHNHS44QPPr3OBKxKeL/view" target="__blank">
