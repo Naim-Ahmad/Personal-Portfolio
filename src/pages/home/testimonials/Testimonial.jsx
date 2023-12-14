@@ -1,6 +1,5 @@
 import { Typography } from "@material-tailwind/react";
 import { useQuery } from "@tanstack/react-query";
-import { axios } from "../../../hooks/useAxios";
 import TestimonialCard from "./TestimonialCard";
 
 export default function Testimonial() {
@@ -8,7 +7,7 @@ export default function Testimonial() {
   const { data = [], isLoading } = useQuery({
     queryKey: ["testimonials"],
     queryFn: async () => {
-      const res = await axios.get("/testimonials");
+      const res = await ("/testimonials");
       return res.data;
     },
   });
