@@ -12,7 +12,7 @@ export default function NavbarComp() {
   return (
     <nav
       id="navBar"
-      className="navbar bg-body-tertiary navbar-expand-md fixed-top"
+      className="navbar  navbar-expand-md fixed-top"
     >
       <div className="container">
         <a className="text-white" href="#">

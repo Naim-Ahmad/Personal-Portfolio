@@ -1,3 +1,4 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import Contact from "../../Components/Contact";
 import Services from "../../Components/Services";
 import Skills from "../../Components/Skills";

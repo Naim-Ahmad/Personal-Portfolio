@@ -17,7 +17,7 @@ export default function About() {
 
               />
               <div className="flex justify-center gap-4 mt-8">
-                <a href="naimahmad201103@gmail.com" target="_blank">
+                <a href="mailto:naimahmad201103@gmail.com">
                   <SiGmail className="text-red-400" size={40} />
                 </a>
                 <a href="https://web.facebook.com/naim.ahmad.noyon" target="_blank">
@@ -53,7 +53,7 @@ export default function About() {
               works section. thanks for seeing my profile!!!
             </p>
             <div className="text-center text-sm-start">
-              <a href="https://drive.google.com/file/d/182GSKdky8-Ba7fHNHS44QPPr3OBKxKeL/view" target="__blank">
+              <a href="https://drive.google.com/file/d/182GSKdky8-Ba7fHNHS44QPPr3OBKxKeL/view" download="https://drive.google.com/file/d/182GSKdky8-Ba7fHNHS44QPPr3OBKxKeL/view">
                 <Button>Download Resume</Button>
               </a>
             </div>

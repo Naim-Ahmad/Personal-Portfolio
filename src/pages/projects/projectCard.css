@@ -1,0 +1,26 @@
+.bg-black {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.overview_project {
+  background-position: top;
+  background-size: cover;
+  height: 400px;
+}
+
+.overview_project:hover {
+  animation-name: toBottom;
+  animation-duration: 10s;
+  transition: 1s;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+}
+
+@keyframes toBottom {
+  50% {
+    background-position: bottom;
+  }
+  100% {
+    background-position: top;
+  }
+}

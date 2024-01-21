@@ -5,7 +5,7 @@ import developmentImg from '../Assets/web_icon-min.png';
 
 export default function Services() {
   return (
-    <section id="service" className="bg-black pt-5">
+    <section id="service" className="!bg-black pt-5">
       <div className="text-center m-auto service-div">
         <h1 className="text-white text-center text-capitalize services commonBeforeTxt">
           What I do for clients
